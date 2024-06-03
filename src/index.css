@@ -71,27 +71,16 @@ body {
   margin-top: 0.9rem;
 } */
 
-.landing-page-container {
-  margin-top: 2rem;
-}
-
-.get-started-btn:hover {
-  background-color: #4a90e2;
-}
-
-.watch-video-btn:hover {
-  text-decoration: underline;
-}
-/* .frame1{
- margin-left: 57.8rem;
- margin-top: 0px;
-
-} */
 .star-image {
   position: relative;
   z-index: 10; /* Ensure the star image is above other elements */
 }
-
+.e1{
+  position: absolute;
+  top: 92%; 
+  right: 0; 
+  transform: translate(0, -50%);
+}
 .frame1 {
   position: absolute;
   top: 70%; 
@@ -123,13 +112,6 @@ body {
 .img2{
   margin-top: 50px;
 }
-/* .text1, .text2 {
-  font-family: 'Roboto', sans-serif;
-}
-
-.text2 {
-  font-family: 'Montserrat', sans-serif;
-} */
 .text1 {
   font-family: 'Roboto', sans-serif;
   font-size: 70px; 
@@ -152,7 +134,6 @@ body {
   margin-right: 30px;
 
 }
-
 .start{
   background-color: #000000;
   color: #FFFFFF;
